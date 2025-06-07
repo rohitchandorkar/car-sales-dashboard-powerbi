@@ -46,7 +46,10 @@ car-sales-dashboard-powerbi/
 
 ## 📷 Preview
 
-*(Add dashboard screenshots here under `/docs` folder)*
+car_sales 
+![car_overview](https://github.com/user-attachments/assets/0e2e0e4c-8608-4097-9821-1a6535ed6ac1)
+
+
 
 ---
 
