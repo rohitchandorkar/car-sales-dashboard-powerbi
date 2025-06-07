@@ -30,9 +30,9 @@ car-sales-dashboard-powerbi/
 
 ├──    Car_Project.pbix # Power BI Dashboard file                                                                                                                          
 ├──   Car Sales.xlsx # Source data file                                                                                                                                   
-├──   docs/
-├──   dashboard_screenshot.png # Add screenshots here
-├──   README.md # Project documentation
+├──   docs/                                                                                                                                                               
+├──   dashboard_screenshot.png # Add screenshots here                                                                                                                     
+├──   README.md # Project documentation                                                                                                                                   
 ├──   LICENSE # MI
 
 ## 🛠️ How to Use
