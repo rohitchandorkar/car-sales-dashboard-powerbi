@@ -58,10 +58,5 @@ car_sales
 Created by [Rohit Chandorkar].  
 Inspired by real-world car dealership analytics use cases.
 
----
-
-## 📬 Contact
-
-For questions, feel free to reach out at [your.email@example.com]
 
 
