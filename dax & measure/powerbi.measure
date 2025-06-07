@@ -1,64 +1,57 @@
- 1. Base Measures
+** 1. Base Measure**
 
 Average Price = AVERAGE(CAR[Price])
 
 Total Sales = SUM(CAR[Price])
 
 Car Sold = COUNT(CAR[Car_id])
-📅 2. Year-To-Date (YTD) Metrics
-DAX
-Copy
-Edit
+
+**📅 2. Year-To-Date (YTD) Metrics**
+
 YTD Average = TOTALYTD([Average Price], 'Calender Table'[Date])
 
 YTD Total Sales = TOTALYTD([Total Sales], 'Calender Table'[Date])
 
 YTD Car Sold = TOTALYTD([Car Sold], 'Calender Table'[Date])
-🔁 3. Prior Year-To-Date (PYTD) Metrics
-DAX
-Copy
-Edit
+
+**🔁 3. Prior Year-To-Date (PYTD) Metrics**
+
 PYTD Avg Price = CALCULATE([Average Price], SAMEPERIODLASTYEAR('Calender Table'[Date]))
 
 PYTD Total Sales = CALCULATE([Total Sales], SAMEPERIODLASTYEAR('Calender Table'[Date]))
 
 PYTD Car Sold = CALCULATE([Car Sold], SAMEPERIODLASTYEAR('Calender Table'[Date]))
-📈 4. Month-To-Date (MTD) Metrics
-DAX
-Copy
-Edit
+
+**📈 4. Month-To-Date (MTD) Metrics**
+
 MTD Avg Price = TOTALMTD([Average Price], 'Calender Table'[Date])
 
 MTD Car Sold = TOTALMTD([Car Sold], 'Calender Table'[Date])
 
 MTD Total Sales = TOTALMTD([Total Sales], 'Calender Table'[Date])
-🎯 MTD KPI Labels
-DAX
-Copy
-Edit
+
+**🎯 MTD KPI Labels**
+
 MTD Avg Price KPI = CONCATENATE("MTD Avg Price : ", FORMAT([MTD Avg Price]/1000, "$0.00K"))
 
 MTD Car Sold KPI = CONCATENATE("MTD Car Sold :", FORMAT([MTD Car Sold]/1000, "$0.00K"))
 
 MTD Total Sales KPI = CONCATENATE("MTD Total Sales : ", FORMAT([MTD Total Sales]/1000000, "$0.00M"))
-🗓️ 5. Quarter-To-Date (QTD) Metrics
-DAX
-Copy
-Edit
+
+**🗓️ 5. Quarter-To-Date (QTD) Metrics**
+
 QTD Total Sales = TOTALQTD([Total Sales], 'Calender Table'[Date])
-📊 6. Difference Calculations
-DAX
-Copy
-Edit
+
+**📊 6. Difference Calculations**
+
 Average Price Difference = [YTD Average] - [PYTD Avg Price]
 
 Car Sold Difference = [YTD Car Sold] - [PYTD Car Sold]
 
 Sales Difference = [YTD Total Sales] - [PYTD Total Sales]
-📊 7. Year-Over-Year (YOY) Growth
-DAX
-Copy
-Edit
+
+**📊 7. Year-Over-Year (YOY) Growth**
+
 YOY Avg Price Growth = [Average Price Difference] / [PYTD Avg Price]
 
 YOY Car Sold Growth = ([YTD Car Sold] - [PYTD Car Sold]) / [YTD Car Sold]
@@ -69,19 +62,17 @@ VAR B = [PYTD Total Sales]
 VAR C = A - B
 VAR D = DIVIDE(C, B)
 RETURN D
-🎨 8. Conditional Colors for KPI Cards
-DAX
-Copy
-Edit
+
+**🎨 8. Conditional Colors for KPI Cards**
+
 Avg Price Colour = IF([Average Price Difference] > 0, "Green", "Red")
 
 Car Sold Colour = IF([Car Sold Difference] > 0, "Green", "Red")
 
 Sale Condition = IF([Sales Difference] > 0, "Green", "Red")
-📌 9. Max Value Highlight (Dynamic Point)
-DAX
-Copy
-Edit
+
+**📌 9. Max Value Highlight (Dynamic Point)**
+
 Max Point = 
 IF(
     MAXX(ALLSELECTED('Calender Table'[WeekNum]), [Total Sales]) = [Total Sales],
