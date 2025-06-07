@@ -27,11 +27,38 @@ An interactive Power BI dashboard to analyze car sales data, dealership performa
 ## 📁 Folder Structure
 
 car-sales-dashboard-powerbi/
-│
-├── Car_Project.pbix # Power BI Dashboard file
-├── Car Sales.xlsx # Source data file
-├── docs/
-│ └── dashboard_screenshot.png # Add screenshots here
-├── README.md # Project documentation
-└── LICENSE # Optional
+
+├──   Car_Project.pbix # Power BI Dashboard file
+├──   Car Sales.xlsx # Source data file
+├──   docs/
+├──   dashboard_screenshot.png # Add screenshots here
+├──   README.md # Project documentation
+├──   LICENSE # MI
+
+## 🛠️ How to Use
+
+1. Download or clone the repository
+2. Open `Car_Project.pbix` in Power BI Desktop
+3. Refresh data using the attached `Car Sales.xlsx` file
+4. Interact with slicers and visuals to explore insights
+
+---
+
+## 📷 Preview
+
+*(Add dashboard screenshots here under `/docs` folder)*
+
+---
+
+## 🤝 Credits
+
+Created by [Your Name].  
+Inspired by real-world car dealership analytics use cases.
+
+---
+
+## 📬 Contact
+
+For questions, feel free to reach out at [your.email@example.com]
+
 
