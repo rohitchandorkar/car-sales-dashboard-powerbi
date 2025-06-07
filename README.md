@@ -32,6 +32,8 @@ car-sales-dashboard-powerbi/
 ├──   Car Sales.xlsx # Source data file                                                                                                                                   
 ├──   docs/                                                                                                                                                               
 ├──   dashboard_screenshot.png # ![Dashboard_Image](https://github.com/user-attachments/assets/7a9bd285-d9f3-4fb0-8ef0-0270f593978a)
+![image](https://github.com/user-attachments/assets/85fcf703-4d23-40e6-9e30-2624be961b08)
+
                                                                                                                      
 ├──   README.md # Project documentation                                                                                                                                   
 ├──   LICENSE # MI
