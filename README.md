@@ -37,7 +37,7 @@ car-sales-dashboard-powerbi/
 
                                                                                                                      
 ├──   README.md # Project documentation                                                                                                                                   
-├──   LICENSE # MI
+├──   LICENSE # MIT
 
 ## 🛠️ How to Use
 
