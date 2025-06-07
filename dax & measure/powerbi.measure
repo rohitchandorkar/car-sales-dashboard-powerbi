@@ -1,7 +1,5 @@
  1. Base Measures
-DAX
-Copy
-Edit
+
 Average Price = AVERAGE(CAR[Price])
 
 Total Sales = SUM(CAR[Price])
