@@ -28,7 +28,7 @@ An interactive Power BI dashboard to analyze car sales data, dealership performa
 
 car-sales-dashboard-powerbi/
 
-├──   Car_Project.pbix # Power BI Dashboard file
+├──    Car_Project.pbix # Power BI Dashboard file
 ├──   Car Sales.xlsx # Source data file
 ├──   docs/
 ├──   dashboard_screenshot.png # Add screenshots here
@@ -52,7 +52,7 @@ car-sales-dashboard-powerbi/
 
 ## 🤝 Credits
 
-Created by [Your Name].  
+Created by [Rohit Chandorkar].  
 Inspired by real-world car dealership analytics use cases.
 
 ---
