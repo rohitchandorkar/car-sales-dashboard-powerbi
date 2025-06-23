@@ -59,10 +59,8 @@ car_sales
 
 ---
 
-## 🤝 Credits
-
-Created by [Rohit Chandorkar].  
-Inspired by real-world car dealership analytics use cases.
+## License
+MIT License – see LICENSE file for details.
 
 
 
